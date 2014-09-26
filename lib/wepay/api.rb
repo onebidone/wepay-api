@@ -23,5 +23,9 @@ module Wepay
     def subscription
       Wepay::Api::Subscription.new
     end
+
+    def credit_card
+      Wepay::Api::CreditCard.new
+    end
   end
 end
