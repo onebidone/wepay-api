@@ -9,13 +9,15 @@ require 'wepay/client/token'
 
 require 'wepay/api'
 require 'wepay/api/base'
+
+require 'wepay/api/account'
 require 'wepay/api/checkout'
 require 'wepay/api/credit_card'
-require 'wepay/api/account'
 require 'wepay/api/preapproval'
-require 'wepay/api/withdrawal'
-require 'wepay/api/subscription_plan'
 require 'wepay/api/subscription'
+require 'wepay/api/subscription_plan'
+require 'wepay/api/user'
+require 'wepay/api/withdrawal'
 
 module Wepay
   extend Wepay::Configuration

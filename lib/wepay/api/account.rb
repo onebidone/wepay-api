@@ -15,7 +15,7 @@ module Wepay
       # @return [Hashie::Mash]
       # @docs [/account/find](https://www.wepay.com/developer/reference/account#find)
       #
-      def find(params)
+      def find params={}
         post 'account/find', params
       end
 
